@@ -23,7 +23,7 @@ wss.on("connection", (ws) => {
         ],
       })
     );
-  }, 1000); // will ticking per 1 minute
+  }, 15000); // will ticking every 15 seconds
 });
 
 server.listen(process.env.PORT || 3001, () => {
